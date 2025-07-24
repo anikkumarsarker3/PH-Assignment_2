@@ -1,16 +1,12 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
@@ -23,4 +19,26 @@
 header,main,footer{
     max-width: 1440px;
     margin: 0 auto;
+}
+.img1{
+  background-image: url('../assets/deal-bloom.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2{
+  background-image: url('../assets/deal-ana.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3{
+  background-image: url('../assets/deal-zabo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img4{
+  background-image: url('../assets/news-letter-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
 }
