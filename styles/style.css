@@ -27,6 +27,7 @@
   background-image: url('../assets/deal-bloom.png');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(70%);
 
 
 }
@@ -35,12 +36,14 @@
   background-image: url('../assets/deal-ana.png');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(70%);
 }
 
 .img3 {
   background-image: url('../assets/deal-zabo.png');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: brightness(70%);
 }
 
 .img4 {
