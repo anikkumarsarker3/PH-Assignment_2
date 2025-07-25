@@ -24,6 +24,8 @@ header,main,footer{
   background-image: url('../assets/deal-bloom.png');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: contrast(80%);
+  
 }
 .img2{
   background-image: url('../assets/deal-ana.png');
