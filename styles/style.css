@@ -15,32 +15,47 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-header,main,footer{
-    max-width: 1440px;
+ header,
+  main,
+  footer {
+    max-width: 393px;
     margin: 0 auto;
-}
-.img1{
+  }
+
+
+.img1 {
   background-image: url('../assets/deal-bloom.png');
   background-repeat: no-repeat;
   background-size: cover;
-  filter: contrast(80%);
-  
+
+
 }
-.img2{
+
+.img2 {
   background-image: url('../assets/deal-ana.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.img3{
+.img3 {
   background-image: url('../assets/deal-zabo.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-.img4{
+
+.img4 {
   background-image: url('../assets/news-letter-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
+}
+
+@media screen and (min-width: 640px) {
+
+ header,
+main,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 }
